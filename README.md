@@ -1,2 +1,2 @@
-# forensic_image_processor_shaikh
+# Forensic Image Processor Shaikh
 Image Processor for Assessment 
