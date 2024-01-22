@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Load the 'before' image to be processed
-before_image_path = ('D:/Users/sahil/Documents/PROJECTS/forensic_image_processor/cartridge_case_images_original/case_image_1.jpg')
+before_image_path = ('PATH TO FILE/case_image_original.jpg') # Replace with path to the original file
 before_image = io.imread(before_image_path)
 
 # Convert the image to grayscale for analysis
@@ -169,7 +169,7 @@ end_y = int(center_y - arrow_length * np.sin(np.radians(arrow_angle)))
 cv2.arrowedLine(processed_image, (center_x, center_y), (end_x, end_y), [0, 0, 255], thickness=5, tipLength=0.3)
 
 # Save the final image
-output_image_path = ('D:/Users/sahil/Documents/PROJECTS/forensic_image_processor/cartridge_case_images_processed/case_image_processed.jpg')
+output_image_path = ('PATH TO FILE/case_image_processed.jpg') # Replace with desired location of output file
 io.imsave(output_image_path, processed_image)
 
 # Display the processed image
