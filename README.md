@@ -1,7 +1,8 @@
 # Forensic Image Processor
 For Assessment - Mohmed Shaikh
 
-[Example Output] [Processed_Example.png) = (https://drive.google.com/file/d/1t32csHL-YbYx-tmVqIop8bNHihLFv5PQ)
+Example Output: Processed_Example.png
+[https://drive.google.com/file/d/1t32csHL-YbYx-tmVqIop8bNHihLFv5PQ]
 
 ## Overview
 
